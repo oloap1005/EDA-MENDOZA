@@ -49,5 +49,43 @@
 #### Output: 
 #### ![image](https://github.com/user-attachments/assets/2f25373f-c0b1-4c6f-9452-e208d90938cd)
 #### The histogram reveals a distribution where the majority of entries have an artist count of 1, followed by decreasing frequencies for higher artist counts. This indicates that most entries in the dataset feature a single artist, with far fewer entries having multiple artists. The distribution tapers off sharply, showing very low frequencies for artist counts above 3.
+#### For the noticeable outliers, we shall first compute for the boundaries of the data, then we will define the outliers. and after that we shall plot the data I asked for the help also of ai to write the code and made it explain the codes.:
+#### ![image](https://github.com/user-attachments/assets/4ea73afd-8fb6-4b18-9b54-49841fa7a76f)
+#### now the code for visualizing the outliers.
+#### ![image](https://github.com/user-attachments/assets/7c54d4f1-7a45-4060-8f22-1017cf64fdc1)
+#### the output:
+#### ![image](https://github.com/user-attachments/assets/e94ba04d-1928-4bd7-9dfe-3ead5a9dc000)
+#### This plot illustrates artist count data, highlighting outliers and statistical boundaries. Light blue dots represent individual data points, while red dots indicate outliers—values that lie beyond typical bounds. The green and blue dashed lines mark the first (Q1) and third (Q3) quartiles, showing the spread of the central 50% of the data. The orange and purple dashed lines depict the lower and upper bounds, calculated using the interquartile range (IQR) method, which helps in identifying data points considered as outliers. This visualization provides a clear overview of the data distribution and any anomalies present.
+
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Top Performers
+#### *Which track has the highest number of streams? Display the top 5 most streamed tracks.
+#### To get the top 5 streamed trackes we'll have to sort the data set based on their stream values using the following code.
+#### ![image](https://github.com/user-attachments/assets/f93a291f-3ed8-474f-8cdb-884d80311b7f)
+#### Based from the output of the code the top 5 streamed tracks are Blinding Lights-The Weeknd, Shape of You-Ed Sheeran, Someone You Loved-Lewis Capaldi, Dance Monkey-Tones and I, Sunflower - Spider-Man: Into the Spider-Verse-Post Malone, Swae Lee
+
+#### **Who are the top 5 most frequent artists based on the number of tracks in the dataset?
+#### For this one we will use this following code.
+####![image](https://github.com/user-attachments/assets/40de3737-cfb0-4fdf-b8c7-fed3a569bbb9)
+#### ![image](https://github.com/user-attachments/assets/d02cf516-f18f-48d1-b946-b6ce4f137cbf)
+#### as we can see here are the top 5 artists on the dataset based on tracks.
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Temporal Trends
+#### * Analyze the trends in the number of tracks released over time. Plot the number of tracks released per year.
+#### To begin, we need to calculate the number of tracks released each year. After obtaining this data, we should arrange it chronologically to make the plot more interpretable. The code for this process is shown in the image below.
+#### ![image](https://github.com/user-attachments/assets/9df82892-3b53-43d0-9c4c-a8974c04bb16)
+#### here we used a code that counts tracks per year, then it sorts its by the time of the track released.
+####![image](https://github.com/user-attachments/assets/3bc127c6-e9d8-46a8-8ce1-3956aabc7810)
+#### this is the code for plotting the data that was recovered.
+#### then here is the output.
+#### ![image](https://github.com/user-attachments/assets/e0586d1b-9559-4caf-a713-68feb92fec2a)
+#### The plot shows that from 1940 to the early 2000s, the number of tracks released each year stayed low and steady. Around the 2000s, releases began to increase gradually, with a sharp rise in the 2010s, peaking around 2020. This trend likely reflects the growth of digital music and changes in the industry.
+
+#### **Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?
+#### 
+
+
+
+
+
+
 
 
