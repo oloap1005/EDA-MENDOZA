@@ -80,7 +80,27 @@
 #### The plot shows that from 1940 to the early 2000s, the number of tracks released each year stayed low and steady. Around the 2000s, releases began to increase gradually, with a sharp rise in the 2010s, peaking around 2020. This trend likely reflects the growth of digital music and changes in the industry.
 
 #### **Does the number of tracks released per month follow any noticeable patterns? Which month sees the most releases?
-#### 
+#### First we need to convert the release date to get the exact month of tracks.
+####![image](https://github.com/user-attachments/assets/d6968e54-3692-4fa9-8094-bfd42b74efd3)
+#### then we will plot the data using a bar graph.
+#### ![image](https://github.com/user-attachments/assets/a21d8adb-993f-4c5a-9fe8-d00a828c5b67)
+#### ![image](https://github.com/user-attachments/assets/6a5e01e4-4f77-4f88-89f0-60b5eeb019e5)
+#### observing the graph we can see that January has the most tracks released.
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Genre and Music Characteristics
+#### Examine the correlation between streams and musical attributes like bpm, danceability_%, and energy_%. Which attributes seem to influence streams the most?
+#### In this code snippet it shows the calculation for the correlation of different attributes
+#### ![image](https://github.com/user-attachments/assets/db85fc21-5435-40ce-aa13-9c1d8fe443a1)
+#### with the help of ai i asked it to help me to answer the follow up question "Which attributes seem to influence streams the most?"
+#### ![image](https://github.com/user-attachments/assets/fae55bbe-e35a-48cd-a00a-264b5b346e3f)
+#### **Is there a correlation between danceability_% and energy_%? How about valence_% and acousticness_%?
+#### we first calculated for the correlation of danceablity and energy using this code:
+#### ![image](https://github.com/user-attachments/assets/14e301d2-71e7-431c-b448-67214a91d257)
+#### After that I visualized it using a scatterplot. Why a scatterplot you ask, after doing some internet surfing scattersplots help identify and visualize the relationship between two numeric variables. In this code I used Ai to help me get a better code.
+#### ![image](https://github.com/user-attachments/assets/6a310855-e45e-4099-9ed4-02e4c42805b8)
+#### ![image](https://github.com/user-attachments/assets/67384296-8fe5-45bf-94f1-6b705a517879)
+
+#### The scatter plot shows a weak positive correlation between danceability_% and energy_%, meaning that as danceability slightly increases, energy tends to increase as well, but the relationship is not strong.
+
 
 
 
