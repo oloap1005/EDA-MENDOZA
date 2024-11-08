@@ -100,9 +100,38 @@
 #### ![image](https://github.com/user-attachments/assets/67384296-8fe5-45bf-94f1-6b705a517879)
 
 #### The scatter plot shows a weak positive correlation between danceability_% and energy_%, meaning that as danceability slightly increases, energy tends to increase as well, but the relationship is not strong.
+#### for the valence_% and acousticness_% this is the code snippet
+#### ![image](https://github.com/user-attachments/assets/0951a9ce-f11d-47d1-b996-cd8c922d31e3)
+#### ![image](https://github.com/user-attachments/assets/a1a39c5f-6afe-43b4-9755-bf1e5e05f3aa)
+#### The scatter plot shows no strong correlation between valence_% (positivity) and acousticness_% (acoustic quality), as points are scattered widely across both axes without a clear trend.
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Platform Popularity
+#### How do the numbers of tracks in spotify_playlists, spotify_charts, and apple_playlists compare? Which platform seems to favor the most popular tracks?
+#### For calculating the numbers of tracks here is the code and it shows the table of values of wanted data.
+#### ![image](https://github.com/user-attachments/assets/ac7ed592-d8fa-4616-aa59-0fa89236cc27)
+#### now I plotted it to have a better observation.
+####  ![image](https://github.com/user-attachments/assets/50e299b2-82d4-4d3b-a53d-0e8f3c0d2124)
+#### The box plot shows that tracks appear in many more spotify_playlists compared to spotify_charts and apple_playlists, with a large number of outliers reaching up to 50,000 playlists, indicating that Spotify playlists favor popular tracks heavily
+#### For Which platform seems to favor the most popular tracks here is the code i made with help of Ai
+####![image](https://github.com/user-attachments/assets/702b2cd0-2d05-4a87-aaf7-8e8a13cb161e)
+#### The data shows that the maximum count for in_spotify_playlists is exceptionally high at 52,898, indicating that some tracks are included in many Spotify playlists, likely reflecting their widespread appeal or relevance across various playlists on the platform.
+## &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Advanced Analysis
+#### Based on the streams data, can you identify any patterns among tracks with the same key or mode (Major vs. Minor)?
+#### Firs that i did was i coded to calculate for  the tracks for key and mode
+#### ![image](https://github.com/user-attachments/assets/2c19be78-f62a-484b-bce0-aca426429783)
+#### The bar chart shows the count of songs by musical key and mode, revealing that Major keys generally have higher counts than Minor keys, with B Major, C# Major, and G Major being particularly popular. Some keys, like D# Major and F# Minor, have notably low counts, indicating less frequent use.
+#### Do certain genres or artists consistently appear in more playlists or charts? Perform an analysis to compare the most frequently appearing artists in playlists or charts.
+####  Group  data for playlist and chart appearances.
+#### ![image](https://github.com/user-attachments/assets/f2522824-6f40-4534-ae42-3187df4e909f)
+####  Select top 5 artists for playlist and chart appearances
+#### ![image](https://github.com/user-attachments/assets/e568a20d-37d4-4f3a-857a-06c64835b7aa)
+#### for the playlist appearances here is the plot
+#### ![image](https://github.com/user-attachments/assets/ba54121b-7180-46f1-ad13-098793eb9a4d)
+#### For chart appearances
+#### ![image](https://github.com/user-attachments/assets/7aa6c502-2800-4f0c-a886-d4b3b5869d76)
+#### Base from the graph, C# Major emerged as the most frequently used key and mode across tracks. The Weeknd was the leading artist in terms of playlist features, with his songs appearing over 140,000 times on Spotify playlists. In contrast, Taylor Swift held the top spot for chart presence, achieving more than 1,750 appearances on Apple Music charts.
 
 
-
+## END.
 
 
 
